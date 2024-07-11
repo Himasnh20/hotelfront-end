@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="hotel.css" />
+  <title>HOTEL GRAND SR</title>
+  <LINK REL="ICON" href="indian-hotels.jpg" </head>
+
+<body>
+  <H1 style="color:gold">
+    <CENTER>WELCOME TO OUR HOTEL</CENTER>
+  </H1>
+  <h2 style="background-color:red" <b>
+    <CENTER> GRAND SR</CENTER></b>
+  </h2>
+  <center><img src="images.jpg" height="100" /></center> \
+
+  <body background="indian-hotels.jpg" STYLE="background-REPEAT:NO-REPEAT;BACKGROUND-SIZE: ">
+    
+
+    <H3>
+      <HR> <BIG><U>OUR FACILITY</U></BIG>
+    </H3>
+    <ul type="square">
+      <li>GYM</li>
+      <li>SPA</li>
+      <li>FREE WiFi in LOBBY</li>
+      <li>RESTAURANT</li>
+    </ul>
+
+    
+
+    <H4><BIG>
+        <CENTER><I>BOOKING NOW</I>
+      </BIG></I></CENTER></BIG></H4>
+     <form>
+      NAME<INPUT type="text" placeholder="inter a your name"> <BR><BR>
+      EMAIL<INPUT type="email" placeholder="inter your mail"> <BR><BR>
+      DATE<INPUT TYPE="DATE"> <br> <br>
+      CHECK IN<input type="checkbox">
+      CHECK OUT<input type="checkbox"><br><br>
+      ROOM TYPE<select>
+        <option></option>
+        <option>CLASSIC</option>
+        <option>DELUX</option>
+      </select><BR><BR>
+      <input type="radio" value="name">
+      <label>Today</label>
+      <input type="radio" value="name" >
+        <label>Tomaf</label>
+      SUBMIT<INPUT type="submit">
+      RESET<input type="reset">  
+    
+    
+    </form>
+    <hr> <br><br>
+    <a target="blank" href="grandsr.html">welcome to our hotel</a>
+    <br><BR><BR>
+    <div id="a1">
+      <ol type="i">
+        <li>HOSPITAL</li>
+        <li>OYO</li>
+        <li>RESTAURANT</li>
+      </ol>
+    </div>
+
+<iframe width="500"height="500"
+src="https://www.booking.com/index.html?label=msn
+-uzur8JLwgYne9NPj*q1yvA-80333068630219%3Atikwd-16659
+121181%3Aloc-90%3Aneo%3Amte%3Alp155024%3Adec%3Aqshotel+&ut
+m_source=bing&utm_medium=cpc&msclkid=8ac41cdb6274104d3b017
+e16a4754c0d&utm_campaign=English+EN+ROW-CAUS&utm_term=uzu
+r8JLwgYne9NPj*q1yvA&aid=393655"allowfullscreen>
+</iframe>
+<h1>Registration Form</h1>
+<form onsubmit="return validation()">
+    <label for="username">UserName</label>
+    <input type="text" name="username" id="username">
+    <span class="error"></span><br> 
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    <span class="error"></span><br>
+    <label for="password">Confirm Password</label>
+    <input type="password" name="confirmpassword" id="confirmpassword">
+    <span class="error"></span><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <span class="error"></span><br>
+    <input type="submit" value="SubmitNow">
+</form>
+<script>
+    function validation() {
+        var error = document.getElementsByClassName("error");
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var confirmpassword = document.getElementById("confirmpassword").value;
+        var email = document.getElementById("email").value;
+        if (username == "") {
+            error[0].innerHTML = "Username Required!!";
+            return false
+        }
+        error[0].innerHTML = "";
+        if (password == "") {
+            error[1].innerHTML = "Password Required!!";
+            return false;
+        }
+        error[1].innerHTML = "";
+        if (confirmpassword == "") {
+            error[2].innerHTML = "Confirm Password Required!!";
+            return false;
+        }
+        if (password != confirmpassword) {
+            error[1].innerHTML = "Password and Confirm Password should match!!";
+            error[2].innerHTML = "Password and Confirm Password should match!!";
+            return false
+        }
+        error[1].innerHTML = "";
+        error[2].innerHTML = "";
+        if (email == "") {
+            error[3].innerHTML = "Email Required!!";
+            return false;
+        }
+
+        return true;
+    }
+</script>
+
+
+
+  </body>
+
+</html>
